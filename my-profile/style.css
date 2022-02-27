@@ -1,0 +1,72 @@
+/*Colors and fonts*/
+body {
+	background: F5F5F5;
+	color:  black;
+	font-family: Optima, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1 {
+	color: rgb(105, 152, 171);
+	font-family: Optima, sans-serif;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(26, 55, 77);
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgb(26, 55, 77);
+}
+
+#photo-isa {
+	border-radius: 50%;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+<div style="
+	background: white;
+	padding: 60px
+	margin: 50px
+	box-shadow: "
+
+/*Custom Design with class*/
+.container {
+	width:  700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px)
+	.container {
+		width: 600px; 
+	}
+
+
+.card-white {
+	background: whitesmoke;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: rgb(64, 104, 130);
+	color:  whitesmoke;
+	padding:  15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: rgb(105, 152, 171);
+	color: white;
+}
+
+.list-inline{
+	text-decoration: none;
+}
